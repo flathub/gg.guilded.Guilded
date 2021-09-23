@@ -1,8 +1,8 @@
 app-id: gg.guilded.Guilded
 base: org.electronjs.Electron2.BaseApp
-base-version: "20.08"
+base-version: '20.08'
 runtime: org.freedesktop.Platform
-runtime-version: "20.08"
+runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
 command: guilded
 tags:
@@ -38,8 +38,8 @@ modules:
       - type: extra-data
         filename: Guilded-Linux.deb
         url: https://www.guilded.gg/downloads/Guilded-Linux.deb
-        sha256: f9c64bae1ae6a478c42a87240e3734c82659f9f2a6a360f5f07769f0346040f7
-        size: 66776582
+        sha256: 0fcd190f12bc7cdaf7b085352105c774ea5212b09cd1a34a0c5427957ccfe5da
+        size: 66842310
       - type: file
         path: apply_extra.sh
       - type: file
