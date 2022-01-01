@@ -24,6 +24,7 @@ finish-args:
   - --talk-name=com.canonical.Unity.LauncherEntry
   - --env=XDG_CURRENT_DESKTOP=ubuntu:GNOME
   - --talk-name=org.freedesktop.secrets
+  - --talk-name=org.freedesktop.portal.Background
 modules:
   - name: guilded
     buildsystem: simple
@@ -38,8 +39,8 @@ modules:
       - type: extra-data
         filename: Guilded-Linux.deb
         url: https://www.guilded.gg/downloads/Guilded-Linux.deb
-        sha256: fc1d4eba6635ff6312b196b692bb3b546bf3ee8611ff2683cfcce6056a3a3ead
-        size: 67200928
+        sha256: 1535a767e5713ba8d80872991b04a07e19078dc82753e1542b1897131e24dfba
+        size: 86278830
       - type: file
         path: apply_extra.sh
       - type: file
