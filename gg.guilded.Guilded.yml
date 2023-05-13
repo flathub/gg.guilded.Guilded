@@ -48,4 +48,6 @@ modules:
         path: guilded.sh
       - type: file
         path: gg.guilded.Guilded.appdata.xml
+      - type: file
+        path: guilded.png
   - shared-modules/libsecret/libsecret.json
