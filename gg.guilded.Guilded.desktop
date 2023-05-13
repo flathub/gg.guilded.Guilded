@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Guilded
+Exec=guilded %U
+Terminal=false
+Type=Application
+Icon=gg.guilded.Guilded
+StartupWMClass=Guilded
+Comment=www.guilded.gg
+MimeType=x-scheme-handler/guilded;
+Categories=Game;
+X-Desktop-File-Install-Version=0.26
+X-Flatpak-RenamedFrom=guilded.desktop;
