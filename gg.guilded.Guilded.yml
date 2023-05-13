@@ -30,6 +30,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm644 guilded.png /app/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
+      - install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/${FLATPAK_ID}.desktop
       - install -Dm644 gg.guilded.Guilded.appdata.xml /app/share/appdata/gg.guilded.Guilded.appdata.xml
       - install -Dm755 guilded.sh /app/bin/guilded
       - install -Dm755 apply_extra.sh /app/bin/apply_extra
@@ -50,4 +51,6 @@ modules:
         path: gg.guilded.Guilded.appdata.xml
       - type: file
         path: guilded.png
+      - type: file
+        path: gg.guilded.Guilded.desktop
   - shared-modules/libsecret/libsecret.json
