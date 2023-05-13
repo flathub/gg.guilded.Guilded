@@ -29,7 +29,7 @@ modules:
   - name: guilded
     buildsystem: simple
     build-commands:
-      - install -Dm644 guilded.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -Dm644 guilded.png /app/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
       - install -Dm644 gg.guilded.Guilded.appdata.xml /app/share/appdata/gg.guilded.Guilded.appdata.xml
       - install -Dm755 guilded.sh /app/bin/guilded
       - install -Dm755 apply_extra.sh /app/bin/apply_extra
