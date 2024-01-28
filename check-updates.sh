@@ -10,8 +10,8 @@ set -o nounset
 # - curl
 # - dpkg-deb
 
-PREV_ETAG="fb6372afe75c2cc62686e8204ec64927-15"
-PREV_RELEASE="1.0.9235285-release"
+PREV_ETAG="adca40fbf9f18972d7405c01ff35ef45-15"
+PREV_RELEASE="1.0.9236953-release"
 DEB_URL="https://www.guilded.gg/downloads/Guilded-Linux.deb"
 DEB_FILE=$(basename ${DEB_URL})
 
