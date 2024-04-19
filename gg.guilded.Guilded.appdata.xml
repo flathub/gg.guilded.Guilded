@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id type="desktop">gg.guilded.Guilded</id>
+  <id>gg.guilded.Guilded</id>
   <name>Guilded</name>
   <developer_name>Guilded Inc.</developer_name>
   <summary>Messaging, Voice, and Video Client</summary>
