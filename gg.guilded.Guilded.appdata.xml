@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <id type="desktop">gg.guilded.Guilded</id>
+<component type="desktop-application">
+  <id>gg.guilded.Guilded</id>
   <name>Guilded</name>
   <developer_name>Guilded Inc.</developer_name>
   <summary>Messaging, Voice, and Video Client</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.guilded.gg</url>
+  <launchable type="desktop-id">gg.guilded.Guilded.desktop</launchable>
   <description>
     <p>Guilded is the best app for gaming chat. Guilded is perfect for gaming with friends, clans, guilds, communities, esports, LFG and teams. And it's free.</p>
     <p>Guilded Is The Best Place To Chat</p>
@@ -46,6 +47,7 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release version="1.0.9251387" date="2024-04-17"/>
     <release version="1.0.9236953" date="2024-01-25"/>
     <release version="1.0.9235285" date="2024-01-10"/>
     <release version="1.0.9224397" date="2023-10-06"/>
@@ -99,4 +101,4 @@
     <content_attribute id="social-location">none</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
-</application>
+</component>
