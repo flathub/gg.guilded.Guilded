@@ -39,8 +39,8 @@ modules:
       - type: extra-data
         filename: Guilded-Linux.deb
         url: https://www.guilded.gg/downloads/Guilded-Linux.deb
-        sha256: 0540708734b12af51a6e9a980c0bb9b6faf03594a8b43af63e8d62e02916572b
-        size: 78655014
+        sha256: 7520e52f440b73a430a2054cef9485a64bd5f5c332b3de8ae6998b4096affa51
+        size: 78645776
       - type: file
         path: apply_extra.sh
       - type: file
