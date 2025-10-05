@@ -1,4 +1,5 @@
 {
   "only-arches": ["x86_64"],
-  "automerge-flathubbot-prs": false
+  "automerge-flathubbot-prs": false,
+  "end-of-life": "The Guilded platform will end service on December 19, 2025. See more: https://www.guilded.gg/blog/guilded-shut-down-12-19-25"
 }
