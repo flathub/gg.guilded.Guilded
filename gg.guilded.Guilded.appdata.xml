@@ -9,6 +9,7 @@
   <url type="homepage">https://www.guilded.gg</url>
   <launchable type="desktop-id">gg.guilded.Guilded.desktop</launchable>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Guilded Inc.**</p>
     <p>Guilded is the best app for gaming chat. Guilded is perfect for gaming with friends, clans, guilds, communities, esports, LFG and teams. And it's free.</p>
     <p>Guilded Is The Best Place To Chat</p>
     <ul>
@@ -31,7 +32,6 @@
       <li>Chat on any platform with our companion apps at www.guilded.gg</li>
       <li>Stream and screen share in any server channel (beta)</li>
     </ul>
-    <p>This wrapper is not verified by, affiliated with, or supported by Guilded Inc.</p>
   </description>
   <screenshots>
     <screenshot type="default">
